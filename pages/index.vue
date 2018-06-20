@@ -1,64 +1,33 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        hanjooyoung1206
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          한주영 소개 홈페이지
+        </h1>
+        <h2 class="subtitle">
+          자기소개
+          나이 : 25 휴대폰 : 010-6243-1206 취미 : 영화 감상
+        </h2>
       </div>
     </div>
+    <body>
+      <section class="section">
+        <div class="container">
+          <h1 class="title">POT LOVER</h1>
+          <h2 class="subtitle">
+            POT LOVER는 식물을 기르면서 현대인들의 고독과 외로움을 치유 할 수 있습니다.
+          </h2>
+        </div>
+      </section>
+    </body>
+    <section class="section"></section>
+    <div class="container"></div>
+    <h1 class="title">식물이란 무엇인가?
+      일반적으로, 운동 기관이 없어 자유롭게 움직일 수 없고 광합성을 할 수 있으며 세포에 세포벽이 있는, 생물의 하나
+    </h1>
+
   </section>
-</template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
+  
+    </template>
+        
